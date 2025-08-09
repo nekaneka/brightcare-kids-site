@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 800 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe1d6"/>
+      <stop offset="1" stop-color="#e9f8f4"/>
+    </linearGradient>
+    <style>
+      .p{opacity:.9;stroke:#ffb399;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="800" height="350" fill="url(#bg)"/>
+  <path class="p" fill="#ffd0bd" d="M80 60h28a10 10 0 1 1 0 20h-8v8a10 10 0 1 1-20 0v-8h-8a10 10 0 1 1 0-20h8v-8a10 10 0 1 1 20 0v8z"/>
+  <path class="p" fill="#cdeee5" d="M230 110h30a10 10 0 1 1 0 20h-10v10a10 10 0 1 1-20 0v-10h-10a10 10 0 1 1 0-20h10v-10a10 10 0 1 1 20 0v10z"/>
+  <path class="p" fill="#ffe9e3" d="M420 40h30a10 10 0 1 1 0 20h-10v10a10 10 0 1 1-20 0V60h-10a10 10 0 1 1 0-20h10V30a10 10 0 1 1 20 0v10z"/>
+  <path class="p" fill="#fff5ef" d="M590 150h28a10 10 0 1 1 0 20h-8v8a10 10 0 1 1-20 0v-8h-8a10 10 0 1 1 0-20h8v-8a10 10 0 1 1 20 0v8z"/>
+  <path class="p" fill="#e9f8f4" d="M120 230h30a10 10 0 1 1 0 20h-10v10a10 10 0 1 1-20 0v-10H110a10 10 0 1 1 0-20h10v-10a10 10 0 1 1 20 0v10z"/>
+  <path class="p" fill="#ffd0bd" d="M360 260h28a10 10 0 1 1 0 20h-8v8a10 10 0 1 1-20 0v-8h-8a10 10 0 1 1 0-20h8v-8a10 10 0 1 1 20 0v8z"/>
+  <path class="p" fill="#ffe9e3" d="M700 250h28a10 10 0 1 1 0 20h-8v8a10 10 0 1 1-20 0v-8h-8a10 10 0 1 1 0-20h8v-8a10 10 0 1 1 20 0v8z"/>
+</svg>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BrightCare Kids — Private Betreuung für Kinder mit besonderen Bedürfnissen</title>
+  <meta name="description" content="Herzliche, qualifizierte private Betreuung für Kinder mit besonderen Bedürfnissen in Wien und Umgebung." />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+ <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Hauptinhalt springen</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#">
+        <span class="logo">BC</span>
+        <span class="brand-text">BrightCare <strong>Kids</strong></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="#services" class="nav-link">Leistungen</a>
+        <a href="#how" class="nav-link">So funktioniert's</a>
+        <a href="#about" class="nav-link">Über uns</a>
+        <a href="#testimonials" class="nav-link">Erfahrungsberichte</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="chip">Kontakt</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Menü öffnen" onclick="toggleMenu()">☰</button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <a href="#services" class="m-link">Leistungen</a>
+      <a href="#how" class="m-link">So funktioniert's</a>
+      <a href="#about" class="m-link">Über uns</a>
+      <a href="#testimonials" class="m-link">Erfahrungsberichte</a>
+      <a href="#faq" class="m-link">FAQ</a>
+      <a href="#contact" class="m-link m-chip">Kontakt</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero puzzle-hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="badge">Private Betreuung • Besondere Bedürfnisse</span>
+          <h1>Wir sind für Ihr Kind da – und für Sie</h1>
+          <p class="lede">Einfühlsame, individuelle Unterstützung, abgestimmt auf die Stärken Ihres Kindes – zu Hause, bei Terminen und im Alltag.</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Unverbindliches Gespräch buchen</a>
+            <a class="btn secondary" href="#services">Wie wir helfen</a>
+          </div>
+          <div class="stats">
+            <div class="card"><strong>7+ Jahre</strong><br><span class="small">Erfahrung in der Betreuung von Kindern mit besonderen Bedürfnissen</span></div>
+            <div class="card"><strong>Erste Hilfe • PEG • ABA‑geschult</strong><br><span class="small">ausgebildet & versichert</span></div>
+            <div class="card"><strong>Wien & Umgebung</strong><br><span class="small">Hausbesuche und Ausflüge</span></div>
+          </div>
+        </div>
+        <div>
+              <img src="images/image.png" alt="Freundliches Betreuungsfoto" class="hero-image" style="max-width:350px; height:auto; border-radius:12px;">
+
+            <p class="small note">Fotos nur mit Zustimmung der Eltern. Wir schützen Ihre Privatsphäre.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="promise" class="tint-peach section-puzzle">
+      <div class="container grid-3">
+        <div class="card"><h3>Immer mit Herz</h3><p class="small">Wir begegnen jedem Kind mit Geduld, Spielfreude und Respekt.</p></div>
+        <div class="card"><h3>Partnerschaft mit Eltern</h3><p class="small">Sie kennen Ihr Kind am besten. Wir hören zu und planen gemeinsam.</p></div>
+        <div class="card"><h3>Sicherheit, der Sie vertrauen können</h3><p class="small">Ausgebildet, versichert und transparent. Ruhige Kommunikation.</p></div>
+      </div>
+    </section>
+
+    <section id="services" class="section-bg puzzle-tile section-puzzle flip">
+      <div class="container">
+        <h2>Leistungen</h2>
+        <div class="grid-3">
+          <div class="card service"><div class="icon">🧩</div><div><h3>Individuelle Betreuung</h3><p class="small">Alltag, Ernährung, Hygiene, Mobilität, Kommunikation.</p></div></div>
+          <div class="card service"><div class="icon">🎓</div><div><h3>Pädagogische Unterstützung</h3><p class="small">Hausaufgabenhilfe, visuelle Pläne, soziale Geschichten.</p></div></div>
+          <div class="card service"><div class="icon">🚗</div><div><h3>Begleitung zu Terminen & Ausflügen</h3><p class="small">Therapien, Arztbesuche, Freizeitaktivitäten.</p></div></div>
+        </div>
+        <div class="card stack"><strong>Sicherheit & Ausbildung</strong>
+          <ul>
+            <li>Kinder-Erste-Hilfe</li>
+            <li>Erfahrung mit Autismus/ADHS, Down-Syndrom, Zerebralparese</li>
+            <li>Medikamentengabe nach Anweisung</li>
+            <li>Polizeiliches Führungszeugnis; versichert</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="tint-teal section-puzzle">
+      <div class="container">
+        <h2>So funktioniert's</h2>
+        <div class="grid-3">
+          <div class="card"><strong>1) Freundliches Gespräch</strong><p class="small">Wir hören zu und beantworten Ihre Fragen.</p></div>
+          <div class="card"><strong>2) Sanfter Start</strong><p class="small">Kurzer Probetermin in Ihrem Tempo.</p></div>
+          <div class="card"><strong>3) Laufende Unterstützung</strong><p class="small">Regelmäßige Betreuung und klare Rückmeldungen.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="tint-rose section-puzzle flip">
+      <div class="container grid-2">
+        <div>
+          <h2>Über BrightCare Kids</h2>
+          <p>Hallo! Ich bin <strong><!-- Name --></strong>, engagierte Betreuungsperson in Wien. Ich biete geduldige, verlässliche und fröhliche Betreuung für Kinder mit unterschiedlichen Bedürfnissen.</p>
+          <ul>
+            <li>Sprachen: Deutsch, Englisch, Bosnisch/Serbisch/Kroatisch</li>
+            <li>Flexible Zeiten, auch abends und am Wochenende</li>
+            <li>Referenzen auf Anfrage</li>
+          </ul>
+          <a class="btn" href="#contact">Termin anfragen</a>
+        </div>
+        <div class="card"><h3>Qualifikationen</h3>
+          <ul>
+            <li>Staatlich anerkannte Pflegeausbildung</li>
+            <li>Autismus-Begleitung & unterstützte Kommunikation</li>
+            <li>Fortlaufende Weiterbildung</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="puzzle-tile section-puzzle">
+      <div class="container grid-2">
+        <div>
+          <h2>Erfahrungsberichte</h2>
+          <div class="testimonial card"><blockquote>„Unser Sohn fühlt sich sicher und verstanden.“</blockquote><div class="small">— P., Wien</div></div>
+          <div class="testimonial card"><blockquote>„Zuverlässig, einfühlsam und professionell.“</blockquote><div class="small">— A., Floridsdorf</div></div>
+        </div>
+        <div class="card"><h3>Betreuungsgebiete</h3><p class="small">Wien, Bezirke 2–22, und nahe Umgebung in Niederösterreich.</p><div class="illus">[Karte]</div></div>
+      </div>
+    </section>
+
+    <section id="faq" class="tint-peach section-puzzle flip">
+      <div class="container">
+        <h2>Häufige Fragen</h2>
+        <details><summary>Erstellen Sie individuelle Betreuungspläne?</summary><p>Ja, wir erstellen gemeinsam einen Plan mit Zielen, Routinen und Sicherheitshinweisen.</p></details>
+        <details><summary>Sind Sie versichert und überprüft?</summary><p>Ja – Nachweise gibt es beim ersten Treffen.</p></details>
+        <details><summary>Wie gehen Sie mit Privatsphäre um?</summary><p>Wir veröffentlichen niemals Fotos/Namen ohne schriftliche Einwilligung.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section-bg tint-teal section-puzzle">
+      <div class="container grid-2">
+        <div>
+          <h2>Kontakt</h2>
+          <p class="small">Lieber telefonisch? Rufen Sie an: <a href="tel:+436600000000">+43 660 0000000</a>. Wir antworten in der Regel innerhalb eines Werktages.</p>
+          <form method="POST" action="https://formspree.io/f/your-id" aria-describedby="contact-note">
+            <label><span>Name</span><input name="name" autocomplete="name" required /></label>
+            <label><span>E-Mail</span><input type="email" name="email" autocomplete="email" required /></label>
+            <label><span>Alter des Kindes</span><input name="age" inputmode="numeric" /></label>
+            <label><span>Ihre Nachricht</span><textarea name="message" rows="4" required></textarea></label>
+            <label><span>Bevorzugte Sprache</span>
+              <select name="language"><option>Deutsch</option><option>Englisch</option><option>Bosnisch/Serbisch/Kroatisch</option></select>
+            </label>
+            <div class="small" id="contact-note">Mit dem Absenden stimmen Sie zu, dass wir Sie zu Ihrer Anfrage kontaktieren.</div>
+            <button class="btn" type="submit">Nachricht senden</button>
+          </form>
+        </div>
+        <div class="card"><h3>Geschäftsinformationen</h3>
+          <p><strong>BrightCare Kids</strong><br/>Wien, Österreich<br/>
+            <a href="mailto:hello@brightcarekids.at">hello@brightcarekids.at</a></p>
+          <p class="small">Öffnungszeiten: Mo–Fr 08:00–18:00 (nach Vereinbarung)</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="footer-brand">
+        <span class="logo">BC</span>
+        <span class="brand-text">BrightCare <strong>Kids</strong></span>
+        <p class="small">© <span id="year"></span> BrightCare Kids. Alle Rechte vorbehalten.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#">Datenschutzerklärung</a>
+        <a href="#">Impressum</a>
+        <a href="#">AGB</a>
+      </nav>
+      <div class="footer-contact">
+        <a class="btn secondary" href="#contact">Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
